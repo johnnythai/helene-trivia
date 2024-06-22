@@ -1,14 +1,8 @@
 <script>
-	import {questions} from "$lib/questions"
+	import Trivia from "../../components/trivia/Trivia.svelte";
 
-	// for (i=0; i < questions.length; i++) {
-	// 	
-	// }
 </script>
 
 <div>	
-	this is trivia
-	<ul>
-		{questions.easy}
-	</ul>
+	<Trivia />
 </div>
